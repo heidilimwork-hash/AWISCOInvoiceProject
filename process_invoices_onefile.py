@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-Standalone no-API invoice extractor for folders containing PDFs, images, TXT, or DOCX files.
-
-This one file includes both the runner and all vendor-specific parsing rules.
-Run:
-    python3 process_invoices_onefile.py "invoice_folder" -o invoice_results.xlsx
-"""
-
 from __future__ import annotations
 
 import argparse
